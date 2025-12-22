@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+     <servlet>
+     	<servlet-name>insertServlet </servlet-name>
+     	<servlet-class>FoodOrderPackage.insertServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>insertServlet</servlet-name>
+     	<url-pattern>/insertServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     <servlet>
+     	<servlet-name>GetAllServlet </servlet-name>
+     	<servlet-class>FoodOrderPackage.GetAllServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>GetAllServlet</servlet-name>
+     	<url-pattern>/GetAllServlet</url-pattern>
+     </servlet-mapping>
+     
+     <!-- User System -->
+     
+     <servlet>
+     	<servlet-name>UserInsertServlet </servlet-name>
+     	<servlet-class>UserPackage.UserInsertServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UserInsertServlet</servlet-name>
+     	<url-pattern>/UserInsertServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+      <servlet>
+     	<servlet-name>LoginServlet</servlet-name>
+     	<servlet-class>UserPackage.LoginServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>LoginServlet</servlet-name>
+     	<url-pattern>/LoginServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+      <servlet>
+     	<servlet-name>profileServlet</servlet-name>
+     	<servlet-class>UserPackage.profileServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>profileServlet</servlet-name>
+     	<url-pattern>/profileServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+       <servlet>
+     	<servlet-name>UpdateProfileServlet</servlet-name>
+     	<servlet-class>UserPackage.UpdateProfileServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateProfileServlet</servlet-name>
+     	<url-pattern>/UpdateProfileServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+      <servlet>
+     	<servlet-name>DeleteServlet</servlet-name>
+     	<servlet-class>UserPackage.DeleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>DeleteServlet</servlet-name>
+     	<url-pattern>/DeleteServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+      <!-- Manage food -->
+      <servlet>
+<servlet-name>FoodInsertServlet</servlet-name>
+<servlet-class>foodPackage.FoodInsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>FoodInsertServelet</servlet-name>
+<url-pattern>/FoodInsertServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>FoodGetAllServlet</servlet-name>
+<servlet-class>foodPackage.FoodGetAllServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>FoodGetAllServlet</servlet-name>
+<url-pattern>/FoodGetAllServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>FoodUpdateServlet</servlet-name>
+<servlet-class>foodPackage.FoodUpdateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>FoodUpdateServlet</servlet-name>
+<url-pattern>/FoodUpdateServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>FoodDeleteServlet</servlet-name>
+<servlet-class>foodPackage.FoodDeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>FoodDeleteServlet</servlet-name>
+<url-pattern>/FoodDeleteServlet</url-pattern>
+</servlet-mapping>
+      
+      <!--Restaurant-->
+      <servlet>
+<servlet-name>RestaurantInsertServlet </servlet-name>
+<servlet-class>Restaurant.RestaurantInsertServlet </servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> RestaurantInsertServlet </servlet-name>
+<url-pattern>/RestaurantInsertServlet </url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>RestaurantGetAllServlet </servlet-name>
+<servlet-class>Restaurant.RestaurantGetAllServlet </servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> RestaurantGetAllServlet </servlet-name>
+<url-pattern>/RestaurantGetAllServlet </url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>RestaurantUpdateServlet </servlet-name>
+<servlet-class>Restaurant.RestaurantUpdateServlet </servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> RestaurantUpdateServlet </servlet-name>
+<url-pattern>/RestaurantUpdateServlet </url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>RestaurantDeleteServlet </servlet-name>
+<servlet-class>Restaurant.RestaurantDeleteServlet </servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> RestaurantDeleteServlet </servlet-name>
+<url-pattern>/RestaurantDeleteServlet </url-pattern>
+</servlet-mapping>
+
+
+<!-- delivery person -->
+<servlet>
+<servlet-name>DeliveryInsertServlet </servlet-name>
+<servlet-class>DeliveryPerson.DeliveryInsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeliveryInsertServlet</servlet-name>
+<url-pattern>/DeliveryInsertServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>DeliveryGetAllServlet </servlet-name>
+<servlet-class>DeliveryPerson.DeliveryGetAllServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeliveryGetAllServlet</servlet-name>
+<url-pattern>/DeliveryGetAllServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>DeliveryUpdateServlet </servlet-name>
+<servlet-class>DeliveryPerson.DeliveryUpdateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeliveryUpdateServlet</servlet-name>
+<url-pattern>/DeliveryUpdateServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>DeliveryDeleteServlet</servlet-name>
+<servlet-class>DeliveryPerson.DeliveryDeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeliveryDeleteServlet</servlet-name>
+<url-pattern>/DeliveryDeleteServlet</url-pattern>
+</servlet-mapping>
+     
+<servlet>
+<servlet-name>StaffInsertServlet</servlet-name>
+<servlet-class>staff_login.StaffInsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>StaffInsertServlet</servlet-name>
+<url-pattern>/StaffInsertServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>staffProfileServlet</servlet-name>
+<servlet-class>staff_login.staffProfileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>staffProfileServlet</servlet-name>
+<url-pattern>/staffProfileServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>UpdateStaffProfileServlet</servlet-name>
+<servlet-class>staff_login.UpdateStaffProfileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateStaffProfileServlet</servlet-name>
+<url-pattern>/UpdateStaffProfileServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>DeleteStaffAccountServlet</servlet-name>
+<servlet-class>staff_login.DeleteStaffAccountServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteStaffAccountServlet</servlet-name>
+<url-pattern>/DeleteStaffAccountServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>StaffLoginServlet</servlet-name>
+<servlet-class>staff_login.StaffLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>StaffLoginServlet</servlet-name>
+<url-pattern>/StaffLoginServlet</url-pattern>
+</servlet-mapping>
+ 
+     
+
+</web-app>
