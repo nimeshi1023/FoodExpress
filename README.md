@@ -1,12 +1,12 @@
-### 🍔 FoodExpress
+# 🍔 FoodExpress
 Online Food Ordering System (SLIIT OOP Project)
 
 ## 🚀 Online Food Ordering System
 
-# Description:
+### Description:
 This project is an Online Food Ordering System designed to streamline food ordering, manage users, menu items, and orders efficiently. It allows customers to browse menus, place orders, and track their purchases, while admins can manage inventory and order status.
 
-# 💾 Technologies Used:
+### 💾 Technologies Used:
 
 Java – Core application logic and backend
 
@@ -18,7 +18,7 @@ CSS – Styling and responsive design
 
 Duration: February 2025 – June 2025
 
-# 🚀 Key Features:
+### 🚀 Key Features:
 
 Full CRUD functionality for users, food items, and orders
 
